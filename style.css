@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+   /* font-family: 'Merienda One', cursive;*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+html {
+    font-size: 92%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6.5rem;
+}
+nav 
+{
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+   
+   
+}
+
+#mynavbar a
+{
+    
+   font-size: 1.2rem;
+   color:#333;
+}
+#mynavbar a:hover
+{
+    color: #be9c79;
+    text-decoration: underline;
+}
+section {
+    min-height: 50vh;
+
+}
+
+#brandimg {
+    height: 2rem;
+
+}
+
+#Home {
+    background-image: linear-gradient(90deg, #fff, transparent 70%),
+        url("images/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 96vh;
+    margin-top:58px ;
+
+}
+
+#Home #Homecnt {
+    
+    margin-top:auto ;
+    width: 40rem;
+    text-align: center;
+    margin-bottom: auto;
+
+
+}
+
+#Homecnt h3 {
+
+    
+    font-size: 4rem;
+    color: #333;
+    font-family: 'Merienda One', cursive;
+
+}
+
+#Homecnt #homep {
+    
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.8;
+}
+
+#Homecnt #homea {
+    margin-left: auto;
+    background-color: #be9c79;
+    margin-right: auto;
+}
+#Homecnt #homea:hover
+{
+    background-color: #333;
+}
+
+#faheadimg img {
+    height: 2rem;
+
+}
+
+#fahead h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Merienda One', cursive;  
+}
+
+#Facility h3 {
+    
+    color: #333;
+    margin: 1rem 0;
+}
+
+#Facility p {
+    line-height: 2;
+    font-size: .8rem;
+    color: #666;
+}
+
+form h3
+{
+    font-size: 2.5rem;
+   margin-bottom: 1rem;
+   color:#333;
+}
+.form-group input {
+    padding: 15px;
+   
+}
+.form-group button
+{
+    background-color: #be9c79;
+}
+.form-group button:hover
+{
+background-color: #333;
+}
+
+/*#Contact .card {
+    border: 3px solid black;
+}*/
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#abtcnt h3 {
+    font-size: 2.5rem;
+    color: #333;
+    font-family: 'Merienda One', cursive;
+    padding-bottom: 1rem;
+}
+
+#abtcnt p {
+
+    line-height: 2;
+    color: #666;
+    font-size: 1rem;
+}
+
+#abtcnt a {
+    background-color: #be9c79;
+}
+
+#abtcnt a:hover
+{
+background-color: #333;
+}
+#footer i {
+    background-color: #be9c79;
+    color: #fff;
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    font-size: 2.5rem;
+    line-height: 6rem;
+}
+
+#footer h3 {
+    margin: 1rem 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+#footer p {
+    color: #666;
+}
+
+#footer .credit {
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#footer hr 
+{
+    border: 2px solid;
+}
+
+#footer span {
+    color: #be9c79;
+}
+#Contact form
+{
+    border:2px solid  #333;
+    padding:30px ;
+   margin:30px ;
+    
+   
+}
+#Contact .form-group input
+{
+    border:2px solid  #333;
+    box-shadow: none;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+@media (max-width:991px)
+{
+    #mynavbar a
+    {
+        margin-left: 10px;
+    }
+    #click
+    {
+        transition: .2s linear;
+    }
+    #click .fa-times
+    {
+        transform: rotate(180deg);
+    }
+    form h3
+    {
+        font-size:1.5rem ;
+    }
+    
+}
+
+@media (max-width:768px)
+{
+    
+    #Home #Homecnt
+    {
+        width:30rem ; 
+    }
+    #Homecnt h3
+    {
+        font-size:3rem ;
+    }
+    
+    #Facility p
+    {
+        font-size: 1.1rem;
+    }
+    
+    #Home
+    {
+       background-position:left ;
+       justify-content:center ;
+      
+    }
+     form h3
+    {
+        font-size:1.5rem ;
+    }
+    
+}
